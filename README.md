@@ -38,4 +38,4 @@ Returns a new object which keys is/are uppercased.
 
 
 ## Related
-[lowercase-keys-object]()
+[lowercase-keys-object](https://github.com/huynhsamha/lowercase-keys-object)
