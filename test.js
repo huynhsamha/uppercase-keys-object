@@ -10,3 +10,5 @@ const employee = {
 const res = upperKeys(employee);
 
 console.log(res);
+console.log(lowerKeys(null));
+console.log(lowerKeys(undefined));
