@@ -32,8 +32,8 @@ console.log(res);
 
 // { ID: 127, FIRST_NAME: 'Huynh', LAST_NAME: 'Ha', SALARY: 1500 }
 
-console.log(lowerKeys(null)); // null
-console.log(lowerKeys(undefined)); // null
+console.log(upperKeys(null)); // null
+console.log(upperKeys(undefined)); // null
 ```
 
 #### Browser
@@ -71,4 +71,4 @@ Returns a new object which keys is/are uppercased.
 
 
 ## Related
-[uppercase-keys-object](https://github.com/huynhsamha/uppercase-keys-object)
+[lowercase-keys-object](https://github.com/huynhsamha/lowercase-keys-object)
