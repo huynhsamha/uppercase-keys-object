@@ -1,6 +1,6 @@
 {
   "name": "uppercase-keys-object",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Uppercase the keys of an object",
   "main": "index.js",
   "scripts": {
