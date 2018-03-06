@@ -23,18 +23,36 @@ or
 ```js
 const upperKeys = require('uppercase-keys-object');
 
-const employee = {
-	ID: 127,
-	FIRST_Name: 'Huynh',
-	last_NAME: 'Ha',
-	salary: 1500
+const object = {
+	camelCase: 1,
+	UPPERCASE: 2,
+	lowercase: 3,
+	snake_case: 4,
+	PascalCase: 5,
+	'Title Case': 6,
+	'dot.case': 7,
+	'param-case': 8,
+	'Sentence case': 9,
+	'path/case': 10,
+	'Header-Case': 11
 };
 
-const res = upperKeys(employee);
+const res = upperKeys(object);
 
 console.log(res);
-
-// { ID: 127, FIRST_NAME: 'Huynh', LAST_NAME: 'Ha', SALARY: 1500 }
+/**
+{ CAMELCASE: 1,
+  UPPERCASE: 2,
+  LOWERCASE: 3,
+  SNAKE_CASE: 4,
+  PASCALCASE: 5,
+  'TITLE CASE': 6,
+  'DOT.CASE': 7,
+  'PARAM-CASE': 8,
+  'SENTENCE CASE': 9,
+  'PATH/CASE': 10,
+  'HEADER-CASE': 11 }
+ */
 
 console.log(upperKeys(null)); // null
 console.log(upperKeys(undefined)); // null
@@ -54,18 +72,27 @@ console.log(upperKeys(undefined)); // null
 ##### Usage
 ```html
 <script>
-	const employee = {
-		ID: 127,
-		FIRST_Name: 'Huynh',
-		last_NAME: 'Ha',
-		salary: 1500
+	
+	const object = {
+		camelCase: 1,
+		UPPERCASE: 2,
+		lowercase: 3,
+		snake_case: 4,
+		PascalCase: 5,
+		'Title Case': 6,
+		'dot.case': 7,
+		'param-case': 8,
+		'Sentence case': 9,
+		'path/case': 10,
+		'Header-Case': 11
 	};
 
-	const res = upperKeys(employee);
+	const res = upperKeys(object);
 
 	console.log(res);
 	console.log(upperKeys(null)); // null
 	console.log(upperKeys(undefined)); // null
+
 </script>
 ```
 
@@ -79,6 +106,7 @@ Returns a new object which keys is/are uppercased.
 ## Related
 + [lowercase-keys-object](https://github.com/huynhsamha/lowercase-keys-object)
 + [camelcase-keys-object](https://github.com/huynhsamha/camelcase-keys-object)
++ [snakecase-keys-object](https://github.com/huynhsamha/snakecase-keys-object)
 
 
 [npm-image]: https://img.shields.io/npm/v/uppercase-keys-object.svg?style=flat
