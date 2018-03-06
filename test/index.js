@@ -1,4 +1,4 @@
-const upperKeys = require('./index');
+const upperKeys = require('./../index');
 
 const employee = {
 	ID: 127,
@@ -10,5 +10,5 @@ const employee = {
 const res = upperKeys(employee);
 
 console.log(res);
-console.log(lowerKeys(null));
-console.log(lowerKeys(undefined));
+console.log(upperKeys(null));
+console.log(upperKeys(undefined));

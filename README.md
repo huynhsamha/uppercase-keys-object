@@ -43,7 +43,9 @@ console.log(upperKeys(undefined)); // null
 #### Browser
 ##### 1. NPM Package
 ```html
-<script src="./node_modules/uppercase-keys-object/index.js"></script>
+<script src="./node_modules/uppercase-keys-object/dist/uppercase-keys-object.js"></script>
+<!-- Or use minified -->
+<script src="./node_modules/uppercase-keys-object/dist/uppercase-keys-object.min.js"></script>
 ```
 ##### 2. Download from source
 ```html
@@ -75,7 +77,8 @@ Returns a new object which keys is/are uppercased.
 
 
 ## Related
-[lowercase-keys-object](https://github.com/huynhsamha/lowercase-keys-object)
++ [lowercase-keys-object](https://github.com/huynhsamha/lowercase-keys-object)
++ [camelcase-keys-object](https://github.com/huynhsamha/camelcase-keys-object)
 
 
 [npm-image]: https://img.shields.io/npm/v/uppercase-keys-object.svg?style=flat

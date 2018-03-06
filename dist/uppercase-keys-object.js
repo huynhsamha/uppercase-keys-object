@@ -8,5 +8,3 @@ function upperKeys(obj) {
 	}
 	return res;
 }
-
-module.exports = upperKeys;
