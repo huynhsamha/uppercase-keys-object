@@ -1,4 +1,8 @@
 # uppercase-keys-object
+
+[![NPM version][npm-image]][npm-url]
+[![NPM downloads][downloads-image]][downloads-url]
+
 Uppercase the keys of an object. Use for node and browser
 
 It is useful for [oracledb](https://github.com/oracle/node-oracledb).
@@ -72,3 +76,9 @@ Returns a new object which keys is/are uppercased.
 
 ## Related
 [lowercase-keys-object](https://github.com/huynhsamha/lowercase-keys-object)
+
+
+[npm-image]: https://img.shields.io/npm/v/uppercase-keys-object.svg?style=flat
+[npm-url]: https://www.npmjs.com/package/uppercase-keys-object
+[downloads-image]: https://img.shields.io/npm/dm/uppercase-keys-object.svg?style=flat
+[downloads-url]: https://www.npmjs.com/package/uppercase-keys-object
